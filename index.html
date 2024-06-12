@@ -25,34 +25,28 @@
             margin-bottom: 20px;
         }
         .message {
-            font-size: 24px;
-            font-weight: 600;
+            font-size: 34px;
+            font-weight: 800;
             margin-bottom: 20px;
         }
         .sub-message {
             font-size: 18px;
-            color: lightgrey;
+            color: grey;
         }
     </style>
     <script>
-        function closeWindow() {
-            if (window.opener) {
-                window.close();
-            } else {
-                window.open('', '_self').close();
-            }
-        }
-
-        setTimeout(closeWindow, 10000);
+        setTimeout(function() {
+            window.close();
+        }, 10000);
     </script>
 </head>
 <body>
     <div class="container">
         <div class="logo">
-            <img src="https://uploads-ssl.webflow.com/6426445e52f75142078331cb/642648069df8da737eb4ad78_web-logo.png" alt="ChurchTools Logo">
+            <img style="border-radius: 10px;" src="https://uploads-ssl.webflow.com/6426445e52f75142078331cb/6669bc4213b88f93a365cb40_churchtools-logo.png" alt="ChurchTools Logo">
         </div>
         <div class="message">
-            Thanks! You're all set.
+            Thanks! You're all set!
         </div>
         <div class="sub-message">
             Your Planning Center account is now connected to ChurchTools. You can now close this window and continue your onboarding.
